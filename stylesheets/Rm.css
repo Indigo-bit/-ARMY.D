@@ -63,7 +63,7 @@ body{
     width: 400px;
     height: 400px;
     border-radius: 30px;
-    transition: ease-in-out 0.7s;
+    transition: all linear 0.7s;
 }
 
 .profile-img:hover{
@@ -248,8 +248,9 @@ footer a{
     height: 250px;
 }
 
+
 .profile-data{
-    text-align: left;
+    text-align: center;
     font-size: 10px;
     font-family: 'Roboto Mono', monospace;
     line-height: 30px;

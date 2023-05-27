@@ -63,9 +63,11 @@ body{
     width: 400px;
     height: 400px;
     border-radius: 30px;
+    transition: all linear 0.7s;
 }
 
 .profile-img:hover{
+    opacity: 1;
     background-image: url(https://i.ibb.co/Jk0j0D1/jiminhover2.jpg);
     background-position: 0px 0px;
 }
