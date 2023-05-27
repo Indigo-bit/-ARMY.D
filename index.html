@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" >
+        <meta name="author"  content="Dana Sofia Rodriguez Rivas">
+        <meta name="description" content="Web page for baby armies (new to the fandom)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>-Army.D</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto+Mono:wght@200;400;500&display=swap" rel="stylesheet">
+    </head>
+        <body id="start">
+        <script src="code.js"></script>
+            <!-- Navegation Section -->
+            <section class="navigation-start" id="nav-start">
+
+                <!-- navegation flex-container -->
+                <div class="navigation-flex-container">
+
+                    <!-- Page Logo -->
+                    <div class="logo-flex" >     
+                        <a href="#"><img src="Images/vinyl-record.png" alt="Vinyl record"></a>   
+
+                        <h2 ><a class="logo" href="#">ARMY.D</a></h2> 
+                        
+                    </div> 
+                    
+                    <!-- Navigation links container -->
+                    <div class="nav-background" id="navshow">
+                        <button onclick="hidenav();" class="close-navigation-btn" id="closenavigationbtn">
+                        <img src="Images/cerrar.png" alt="Close navigation">
+                        </button>
+
+                        <!-- Flex-container for nav links -->
+                        <nav class="nav-flex-container">
+
+                            <a class="nav-item1 nav-item" href="#albums">Albums</a>
+                            <a class="nav-item2 nav-item" href="#members">Members</a>
+                            <a class="nav-item3 nav-item" target="_blank" href="https://www.google.com/search?q=bts+awards&oq=bts+awa&aqs=chrome.1.69i57j0i512j46i512j0i512l2j0i22i30l5.4927j1j7&sourceid=chrome&ie=UTF-8">Awards</a>
+
+                            <!-- Official sites open/close button -->
+                            <button id="official-sites-btn" class="nav-button nav-item4 " onclick="showblock();"   >
+                            <span class="nav-button-span"> Official sites </span>
+                            <img  class="nav-arrow" src="Images/arrow-down-sign-to-navigate.png" alt="downwards arrow">
+                            </button>
+
+                            <!--Official sites menu -->
+                            <div class="official-sites-select" id="official-sites-block"> 
+                                <ul class="nav-sites-container">
+                                    <li class="nav-site-links "><a target="_blank" class="nav-sites-anchors" href="https://weverse.io/bts/feed"><div class="flexcon-sites">Weverse <img class="logos-sites" src="Images/icons8-weverse-50.png" alt="Weverse logo"></div></a></li>
+                                    <li class="nav-site-links"><a target="_blank" class="nav-sites-anchors" href="https://www.youtube.com/@BTS"><div class="flexcon-sites">Youtube <img class="logos-sites" src="Images/icons8-youtube-50.png" alt="Youtube logo"></div></a></li>
+                                    <li class="nav-site-links"><a target="_blank" class="nav-sites-anchors" href="https://www.instagram.com/bts.bighitofficial/"><div class="flexcon-sites">Instagram <img class="logos-sites" src="Images/icons8-instagram-50.png" alt="Instagram logo"></div> </a></li>
+                                    <li class="nav-site-links"><a target="_blank" class="nav-sites-anchors" href="https://twitter.com/bts_bighit"><div class="flexcon-sites"> Twitter <img class="logos-sites" src="Images/icons8-twitter-50.png" alt="Twitter logo"></div></a></li>
+                                    <li class="nav-site-links"><a target="_blank" class="nav-sites-anchors" href="https://www.tiktok.com/@bts_official_bighit"><div class="flexcon-sites">TikTok <img class="logos-sites" src="Images/icons8-tiktok-50.png" alt="Tiktok logo"></div> </a></li>
+                                    <li class="nav-site-links"><a target="_blank" class="nav-sites-anchors" href="https://www.facebook.com/bangtan.official/"><div class="flexcon-sites">Facebook <img class="logos-sites" src="Images/icons8-facebook-50.png" alt="Facebook logo"></div></a></li>
+                                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto+Mono:wght@200;400;500&display=swap" rel="stylesheet">
+                                </ul>
+                            </div> 
+                
+                            
+                        </nav>
+                        <!-- Hamburguer menu button -->
+                    </div>
+
+                            <button class="icon-menu-hamburguer" onclick="shownav()">
+                            <img class="img-hamburguer" src="Images/menu (4).png" alt="Navigation menu">
+                            </button>
+                    </div>           
+            </section>
+            <section class="hero-container">
+                <div class="hero-texts-container">
+                    <h1 class="hero-title">BTS</h1>
+                    <h3 class="hero-subtitle">Who is it?</h3>
+                    <p class="hero-paragh">BTS,also known as Bangtan Sonyeondan, is a South Korean boy band that has achieved unprecedented global success in the entertainment industry.Formed by Big Hit Entertainment ( now known as HYBE),the band debuted on June 13,2013 and have been wowing millions of fans around the globe ever since.</p>
+                    <p class="hero-paragh">The band is made up of seven talented members: RM(RapMonster),Jin,Suga,J-Hope,Jimin,V and Jungkook.Each of them have outstanding skills in singing,rapping,dancing and music composition,which has contributed to their overall success.Furthermore,BTS has been recognized for their active participation in producing and writting their own songs, allowing them to address personal and social issues with authenticity.</p>
+
+                    
+                    <p class="hero-paragh">Since their earliest days, BTS has established a distinctive style and unique musical identity. Their music spans a wide range of genres, fusing hip-hop, R&B, pop, rock and electronic elements to create a fresh and modern sound. Their lyrics address deep themes such as youth, love, social pressure, and personal empowerment, which has resonated with people of different ages and cultures around the world.(scroll down for more)
+                    </p>
+                    <p class="hero-paragh">BTS's rise to international fame began with their album "The Most Beautiful Moment in Life, Pt. 2" in 2015 and was cemented with their hit single "Blood Sweat & Tears." From there, they have continued to reap success with releases such as "Wings", "Love Yourself: Her", "Love Yourself: Tear" and "Map of the Soul: Persona", among others. Each new album has expanded their fan base and broken records on charts around the world.</p>
+                    <p class="hero-paragh">
+                        BTS's influence extends beyond music. They have used their platform to address social issues, promoting messages of self-love, acceptance and self-improvement. They have been ambassadors for UNICEF's "Love Myself" campaign and have spoken about the importance of mental health and wellbeing on several occasions.
+                        </p>
+                    <p class="hero-paragh">In addition to their music, BTS is known for their energetic performances and impressive choreography. Their concerts, known as "BTS Live Trilogy," "The Red Bullet Tour," "The Wings Tour," and "Love Yourself World Tour," have sold out around the world and demonstrated the group's dedication and talent on stage.
+                    </p>
+                    <p class="hero-paragh">BTS has left an indelible mark on the entertainment industry, becoming one of the most influential and recognized K-pop groups worldwide. Their music and message have united people from different cultures and demonstrated the power of music as a universal language.</p>
+                    
+                </div>
+
+                <div class="hero-img-container">
+                    <img class="hero-img" src="Images/IMG-main-intro.JPG" alt="https://ibb.co/FgZfGSB" class="">
+                </div>
+            </section>
+
+            <section class="quote-background">               
+                    <p class="quote-paragh">"Welcome to the magic shop"</p>
+            </section>
+
+                <main class="members-container " id="members">
+                    <h2 class="members-title">Members</h2>
+                    <div class="member-title-line"></div>
+
+                    <div class="members-grid">
+                        <a class="a-member" href="Rm-introduction.html"><article class="member-cards RM">
+                            <span class="circle-img c-1"></span>
+                            <h4 class="member-name">RM</h4>
+
+                        </article></a>
+                        <a class="a-member" href="Jin-introduction.html"><article class="member-cards Jin">
+                            <span class="circle-img c-2"></span>
+                            <h4 class="member-name">Jin</h4>
+
+                        </article></a>
+                        <a class="a-member" href="Suga-introduction.html"><article class="member-cards suga">
+                            <span class="circle-img c-3"></span>
+                            <h4 class="member-name">Suga</h4>
+
+                        </article></a>
+                        <a class="a-member" href="jhope-introduction.html"><article class="member-cards hobie">
+                            <span class="circle-img c-4"></span>
+                            <h4 class="member-name">Jhope</h4>
+
+                        </article></a>
+                        <a class="a-member" href="jimin-introduction.html"><article class="member-cards jimin">
+                            <span class="circle-img c-5"></span>
+                            <h4 class="member-name">Jimin</h4>
+
+                        </article></a>
+                        <a class="a-member" href="V-introduction.html"><article class="member-cards v">
+                            <span class="circle-img c-6"></span>
+                            <h4 class="member-name">V</h4>
+
+                        </article></a>
+                        <a class="a-member" href="Jungkook-introduction.html"><article class="member-cards kook">
+                            <span class="circle-img c-7"></span>
+                            <h4 class=" member-jungkook">Jungkook</h4>
+
+                        </article></a>
+
+                        <a class="a-member" href="#"><article class="member-cards">
+                            <span class="circle-img c-8"></span>
+                            <h4 class=" member-name">Tours</h4>
+
+                        </article></a>
+                        <a class="a-member" href="#"><article class="member-cards kook">
+                            <span class="circle-img c-9"></span>
+                            <h4 class=" member-name namechange">Movies/series</h4>
+
+                        </article></a>
+
+
+
+                    </div>
+
+                        
+                
+                </main>
+
+                <section id="albums" class="album-sec">
+                    <h2 class="members-title">Albums</h2>
+                    <div class="member-title-line"></div>
+
+                <div class="wrapper">
+                    <div id="left" class="carousel-arrows arrow-previous"><img src="Images/carousel-left-arrow.png" alt="left-arrow"></div>
+                 <div class="carousel">
+                         <a target="_blank" href="https://open.spotify.com/album/6egaEe9JaULuUCkihSnYlH"><img src="Images/2 kool for skool.jpg" alt="album 2 kool 4 skool"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/6rWmdSJIaGTVtdMJQ35Lvf"><img src="Images/are you.jpg" alt="album are you lote two"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/5r35iS0uSSoQBKzQj0IeI3"><img src="Images/love affair.jpg" alt="album skool love affair"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/35voVqYGkotyJ945O9egDY"><img src="Images/dark & wild.jpg" alt="album dark & wild"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/2bXp5bEM5sgZdIznTesQZb"><img src="Images/wake up.jpg" alt=" album Wake up"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/0mEeCuKJQ8Xh9tQ5dMm89X"><img src="Images/the most pt1.jpg" alt="album The most beutiful moment of life pt1"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/2ds8iT4wkaN1Q1gZe1qcOD"><img src="Images/the most pt2.jpg" alt="album the most beautiful moment of life pt2"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/1k5bJ8l5oL5xxVBVHjil09"><img src="Images/the most forever young.jpg" alt="album The most beautiful moment of life : Forever Young"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/442zUwKHCTO47XPF7cUSqY"><img src="Images/youth.jpg" alt="album youth"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/1vhNGBTFoaSTLbHjPGFIlF"><img src="Images/wings.jpg" alt="album Wings"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/6THpewjqJ15ORBJkh5CEYb"><img src="Images/youneverwalkalone.jpg" alt="album You never walk alone"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/07Rq17GzCnIdWJcyVHb57G"><img src="Images/love yourself 1.jpg" alt="album Love yourself: HER"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/66J1OXSaS3hBZASOV3el8t"><img src="Images/face yourself.jpg" alt="album Face yourself"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/4NIqCxqP9o8Tp6tGLBqd8O"><img src="Images/love yourself tear.jpg" alt="album Love yourself : Tear"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/43wFM1HquliY3iwKWzPN4y"><img src="Images/love yourself answer.jpg" alt="album Love Yourself : Answer"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/2KqlAl1Kl5fZvbFgJ0qFB6"><img src="Images/map of the soul persona.jpg" alt="album Map of the soul : persona"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/5W1XY5ucNATjTULERvXx9j"><img src="Images/map of the soul 7.jpg" alt="album Map of the soul: 7"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/1nScVw87kRJiT2bg2Kswhp"><img src="Images/map of the soul the journey.jpg" alt="album Map of the soul : The journey"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/6nYfHQnvkvOTNHnOhDT3sr"><img src="Images/be.jpg" alt="album BE"></a>
+                         <a target="_blank" href="#"><img src="Images/bts the best.jpg" alt="album Bts, the best"></a>
+                         <a target="_blank" href="https://open.spotify.com/album/6al2VdKbb6FIz9d7lU7WRB"><img src="Images/proof.jpg" alt="album Proof"></a>
+         
+         </div>
+                <div id="right" class="carousel-arrows arrow-next"><img src="Images/carousel-right-arrow.png" alt="right arrow"></div>
+                </div>
+                <h5 class="collabs">Collabs</h5>
+                
+            <div class="wrapper">
+                <div id="left" class="carousel-arrows arrow-previous"><img src="Images/carousel-left-arrow.png" alt="left-arrow"></div>
+             <div class="carousel">
+                     <a target="_blank" href="https://open.spotify.com/track/4a9tbd947vo9K8Vti9JwcI"><img src="Images/boywithluv.jpg" alt="cover boy with luv"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/3FeVmId7tL5YN8B7R3imoM"><img src="Images/myuniverse.jpg" alt="cover My Universe"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/0xzI1KAr0Yd9tv8jlIk3sn"><img src="Images/baddecisions.jpg" alt="cover Bad Decisions"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/474VqnPDr0251lsQBB8sQB"><img src="Images/butter colab.jpg" alt="cover Butter ft Megan Stallion"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/0pSqYDTjY1Xt86usTQslAx"><img src="Images/who.jpg" alt="cover who"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/4TgxFMOn5yoESW6zCidCXL"><img src="Images/savage love.jpg" alt="cover savage love"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/6XxpvCj3eLWs3lYowSgC4G"><img src="Images/midrop.jpg" alt="cover mic drop"></a>
+                     <a target="_blank" href="https://open.spotify.com/track/2WH4oy1SYppZrcdgKwSA0j"><img src="Images/makeitright.jpg" alt="cover make it right"></a>
+     </div>
+            <div id="right" class="carousel-arrows arrow-next"><img src="Images/carousel-right-arrow.png" alt="right arrow"></div>
+            </div>
+                </section>
+
+                <footer>
+                    <p>❤ Fan Page made by Dana Rodriguez ❤</p>
+                </footer>
+    </body>
+</html>

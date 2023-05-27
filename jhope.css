@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f6e7;
+    font-family: 'Roboto Mono',monospace;
+}
+
+
+.profile{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1500px;
+    height: 500px;
+    background-image:linear-gradient(230deg,#3cb4c2,rgb(164, 206, 195) );
+    box-shadow: 0px 0px 50px #3cb4c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid #3cb4c2;
+
+}
+
+.arrowstart-flex{
+    background-color:transparent;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px ;
+    left: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 50px black;
+}
+
+.backtostartarrow{
+    width: 26px;
+}
+
+.profile-flex{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.profile-img{
+
+    box-shadow: 0px 0px 50px black;
+    background-image: url(Images/img-jhope/profilejhope.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.profile-img:hover{
+    background-image: url(Images/img-jhope/jhopehover.jpg);
+}
+
+.profile-data{
+    /* width: 450px; */
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 50px;
+    
+}
+
+.data-categories{
+    font-size: 30px;
+    color:rgb(139, 65, 23) ;
+}
+
+.about{
+    width: 90%;
+    max-width: 1400px;
+    margin: 70px auto;
+    border:2px solid #3cb4c2;
+    padding: 20px;
+    box-shadow: 0px 0px 50px #3cb4c2;
+}
+
+.about-title{
+    font-size: 20px;
+    color: #3cb4c2;
+    font-family:'Roboto Mono',monospace ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-paragh{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1200px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.carousel-arrows{
+    width: 43px;
+    height: 43px;
+    background-color: rgba(255, 255, 255, 0.282);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+}
+
+.arrow-previous{
+    left:0px;
+}
+.arrow-next{
+    right: 0px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+    overflow-x: scroll;
+    font-size: 0px;
+    padding: 20px;
+}
+
+.carousel img{
+    width: calc(100%/3);
+    object-fit: contain;
+    height: 290px;
+}
+
+.carousel img:hover{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    box-shadow: 0px 0px 50px black;
+    border: 2px solid black;
+}
+
+.carousel::-webkit-scrollbar{
+    width: 20px;
+    background-color: #f2f6e7;
+}
+.carousel::-webkit-scrollbar{
+    width:0.3125rem;
+    margin: 0rem 0.0625rem;
+
+}
+
+.carousel::-webkit-scrollbar-track{
+    background-color:var(--background-1);
+    border-radius: 0.625rem;
+    margin-block: 0.375rem;
+
+}
+.carousel::-webkit-scrollbar-thumb{
+    background:#3cb4c2;
+    border-radius: 100vh;
+
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid #3cb4c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: #3cb4c2;
+}
+
+ @media (max-width:1200px){
+
+    .profile-img{
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+        background-position: 0px 0px;
+    }
+
+    .profile-data{
+        font-size: 13px;
+    }
+
+    .data-categories{
+        font-size: 16px;
+    }
+
+    .carousel img{
+        width: calc(100%/2);
+    }
+
+    .carousel::-webkit-scrollbar{
+        display: none;
+    }
+ }
+
+ @media (max-width:763px){
+
+    .profile{
+        height:750px;
+    }
+
+    .profile-flex{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80%;
+    }
+
+    .carousel img{
+        width: calc(100%/1);
+    }
+ }
+
+ @media (max-width:431px){
+
+.profile{
+    height: 600px;
+}
+    
+.profile-img{
+    background-size: 250px;
+    width: 250px;
+    height: 250px;
+}
+
+.profile-data{
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 30px;
+    
+}
+
+.data-categories{
+    font-size: 13px;
+}
+
+ }
+
