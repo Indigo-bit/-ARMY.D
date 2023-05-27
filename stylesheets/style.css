@@ -682,6 +682,7 @@ body::-webkit-scrollbar-thumb{
     max-width: 1200px;
     margin: 0 auto 100px;
     position: relative;
+    background-color: rgba(128, 128, 128, 0.414);
 }
 
 .carousel-arrows{
@@ -712,7 +713,7 @@ body::-webkit-scrollbar-thumb{
 .carousel img{
     width: calc(100%/3);
     object-fit: contain;
-    height: 290px;
+    height: 288px;
 }
 
 .carousel img:hover{

@@ -110,8 +110,9 @@ body{
 .wrapper{
     width: 80%;
     max-width: 1200px;
-    margin: 70px auto;
+    margin: 30px auto 70px;
     position: relative;
+    background-color: rgba(128, 128, 128, 0.292);
 }
 
 .carousel-arrows{
