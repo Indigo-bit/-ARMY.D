@@ -78,8 +78,9 @@
 
   .mots{
     grid-area: next1;
-    background-image: url(https://i.ibb.co/PTwrpDH/motstour.jpg);
-    background-size: cover;
+    background-color: rgb(66, 66, 188);
+    background-image: url(https://i.ibb.co/dtYwVLB/motstour-min.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center
    
@@ -91,7 +92,7 @@
     background-image: url(https://i.ibb.co/4g3SxPc/lytour2.jpg);
     background-size: contain;
     background-size: 160px;
-    background-position: 0px -50px;
+    background-position: center -50px;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -113,6 +114,7 @@
   }
   .wings img{
     width: 100%;
+    object-fit: contain;
     background-color: black;
   }
 
@@ -128,7 +130,7 @@
   .wakeup{
     grid-area: next5;
     background-color: rgb(0, 0, 0);
-    background-image:url(https://i.ibb.co/HH13Tx1/wakeuptour.jpg);
+    background-image:url(https://i.ibb.co/ZStxhcX/wakeuptour-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -138,7 +140,7 @@
     grid-area: next6;
     background-color: darkorange;
     background-image: url(https://i.ibb.co/HdYrMVn/permissiotodancetour.jpg);
-    background-position: center -170px;
+    background-position: center -140px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
