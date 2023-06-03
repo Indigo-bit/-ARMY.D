@@ -30,14 +30,14 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 20px ;
-  left: 15px;
-  border: 1px solid var(--clr-neon);
-  box-shadow: 0px 0px 50px var(--clr-neon);
+  top: 1.25rem;
+  left: 0.9375rem;
+  border: 0.0625rem solid var(--clr-neon);
+  box-shadow: 0rem 0rem 3.125rem var(--clr-neon);
 }
 
 .backtostartarrow{
-  width: 26px;
+  width:1.625rem;
 }
 
 .neon-button {
